@@ -8,6 +8,12 @@ post = [
         'title': 'Blog Post 1',
         'content': 'First post content',
         'date_posted': 'August 27, 2018'
+    },
+    {
+        'author': 'CoreyMS',
+        'title': 'Blog Post 1',
+        'content': 'First post content',
+        'date_posted': 'August 27, 2018'
     }
 ]
 
