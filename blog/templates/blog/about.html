@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    {% if title %}
+        <title>Mike Web Application - {{ title }}</title>
+    {% else %}
+        <title>Mike Web Application</title>
 </head>
 <body>
     <h1>About Page</h1>
