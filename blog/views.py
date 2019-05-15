@@ -4,7 +4,10 @@ from django.shortcuts import render
 # Creating the views
 post = [
     {
-        'author' : 'CoreyMS'
+        'author': 'CoreyMS',
+        'title': 'Blog Post 1',
+        'content': 'First post content',
+        'date_posted': 'August 27, 2018'
     }
 ]
 
