@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 
 # Creating the views
-post = [
+posts = [
     {
         'author': 'Michael',
         'title': 'Blog Post 1',
@@ -19,7 +19,10 @@ post = [
 
 
 def home(request):
-    return render(request, 'blog/home.html')
+    context = {
+        'posts': posts
+    }
+    return render(request, 'blog/home.html' context)
 
 
 def about(request):
