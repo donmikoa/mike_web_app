@@ -20,7 +20,7 @@ posts = [
 # Creating functions for home.html and about.html
 def home(request):
     context = {
-        'posts': posts
+        'posts': Post.objects.all()
     }
     return render(request, 'blog/home.html', context)
 
