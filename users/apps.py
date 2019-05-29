@@ -5,7 +5,7 @@ class UsersConfig(AppConfig):
     name = 'users'
 
     def ready(self):
-        dj
+        djh
 
 
         import users.signals
