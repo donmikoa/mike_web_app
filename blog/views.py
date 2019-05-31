@@ -18,6 +18,7 @@ posts = [
     }
 ]
 
+
 # Creating functions for home.html and about.html
 def home(request):
     context = {
