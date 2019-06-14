@@ -27,8 +27,10 @@ def home(request):
     }
     return render(request, 'blog/home.html', context)
 
+
 class PostListView(ListView):
     model = Post
+    template_name = 'blog/home.html'  # <app>/<model>_<viewtype>.html
 
 
 def about(request):
