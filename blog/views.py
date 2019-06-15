@@ -16,6 +16,7 @@ class PostListView(ListView):
     context_object_name = 'posts'
 
 
+
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
