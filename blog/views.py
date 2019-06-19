@@ -17,7 +17,7 @@ class PostListView(ListView):
 
 
 
-def about_racoon(request):
+def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
 
