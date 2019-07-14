@@ -25,3 +25,4 @@ def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})
 
 
+
