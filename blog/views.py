@@ -25,7 +25,7 @@ class PostDetailView(DetailView):
     model = Post
 
 
-class PostCreatView(CreateView):
+class PostCreateView(CreateView):
     model = Post
     fields = ['title', 'content']
 
