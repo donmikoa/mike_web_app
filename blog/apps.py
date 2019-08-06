@@ -5,3 +5,4 @@ class BlogConfig(AppConfig):
     name = 'blog'
 
 
+
