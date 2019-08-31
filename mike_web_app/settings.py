@@ -137,6 +137,6 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 AWS_ACCESS_KEY_ID = os.environ.get('EMAIL USER')
-AWS_SECRET_ACCESS_KEY =
+
 
 
